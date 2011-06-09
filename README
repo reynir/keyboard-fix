@@ -1,0 +1,9 @@
+# Purpose
+
+Replace `ae`, `oe`, and `aa` with their Danish one-letter counterparts in any program.
+
+# Usage
+
+The program runs as a daemon, so you could start it on boot or whenever you need it. Yep, it's entirely up to you.
+
+Just type `make` to compile!
