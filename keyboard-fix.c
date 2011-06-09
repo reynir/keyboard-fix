@@ -12,12 +12,12 @@ void SendKeyPressEventFor(KeySym keysym, Display *display, Window *window);
 int main(int argc, char **argv) {
   pid_t pid = 0;
 	pid = fork();
-	
-	if (pid == 0) {
+
+  if (pid == 0) {
     ListenForKeyboardEvents();
-	} else {
-		exit(0);
-	}
+  } else {
+    exit(0);
+  }
   
   return 0;
 }
